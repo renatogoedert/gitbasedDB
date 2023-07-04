@@ -2,7 +2,7 @@
 title: Tina Cloud Starter
 blocks:
   - tagline: This is a new tagline!
-    headline: Welcome to thmo!
+    headline: It's me! Lougi!
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
@@ -19,7 +19,8 @@ blocks:
         icon: false
         link: /posts
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
+      src: >-
+        https://www.giantbomb.com/a/uploads/scale_medium/9/99864/2389814-nsmbuluigi.png
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
@@ -51,6 +52,7 @@ blocks:
     color: tint
     _template: features
 ---
+
 
 
 
