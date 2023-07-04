@@ -2,7 +2,7 @@
 title: Tina Cloud Starter
 blocks:
   - tagline: This is a new tagline!
-    headline: Welcome to the Self Hosted Demo!
+    headline: Welcome to thmo!
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
@@ -51,6 +51,7 @@ blocks:
     color: tint
     _template: features
 ---
+
 
 
 
