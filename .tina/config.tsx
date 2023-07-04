@@ -10,7 +10,7 @@ const config = defineConfig({
   contentApiUrlOverride: "/api/gql",
   admin: {
     auth: {
-      useLocalAuth: process.env.TINA_PUBLIC_IS_LOCAL === "true",
+      useLocalAuth: true,
 
       // Uncomment this to use custom auth
       // customAuth: true,

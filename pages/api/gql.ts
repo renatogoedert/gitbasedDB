@@ -1,5 +1,5 @@
 import { NextApiHandler } from "next";
-import { isUserAuthorized } from "@tinacms/auth";
+//import { isUserAuthorized } from "@tinacms/auth";
 import { databaseRequest } from "../../lib/databaseConnection";
 
 const nextApiHandler: NextApiHandler = async (req, res) => {
@@ -7,15 +7,17 @@ const nextApiHandler: NextApiHandler = async (req, res) => {
   // const isAuthorized = headers.authorization === "Bearer some-token"
 
   // Example if using TinaCloud for auth
-  const tinaCloudUser = await isUserAuthorized({
-    clientID: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-    token: req.headers.authorization,
-  });
+  //const tinaCloudUser = await isUserAuthorized({
+  //  clientID: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  //  token: req.headers.authorization,
+ // });
 
-  const isAuthorized =
-    process.env.TINA_PUBLIC_IS_LOCAL === "true" ||
-    tinaCloudUser?.verified ||
-    false;
+  //const isAuthorized =
+  //  process.env.TINA_PUBLIC_IS_LOCAL === "true" ||
+  //  tinaCloudUser?.verified ||
+ //   false;
+
+  const isAuthorized = true;
 
   if (isAuthorized) {
     const { query, variables } = req.body;
